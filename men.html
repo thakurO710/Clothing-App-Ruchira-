@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruchira | Men's Collection</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<style>
+body{
+    background:#b9df89;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background:#111;
+}
+.navbar-brand{
+    color:#ff4081 !important;
+    font-size:30px;
+    font-weight:bold;
+}
+.nav-link{
+    color:white !important;
+}
+.nav-link:hover{
+    color:#ff4081 !important;
+}
+.banner{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("assets/men.jpg");
+    background-size:cover;
+    background-position:center;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+.banner h1{
+    font-size:50px;
+    font-weight:bold;
+}
+.card{
+    border:firebrick;
+    transition:0.3s;
+    height: 100%;
+    width: 100%;
+}
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+.price{
+    color:#ff4081;
+    font-size:22px;
+    font-weight:bold;
+}
+.old{
+    color:gray;
+    text-decoration:line-through;
+}
+.rating{
+    color:orange;
+}
+footer{
+    background:#111;
+    color:white;
+    padding:20px;
+    margin-top:50px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+    <img src="assets/logo.jpg" alt="Logo" width="10%" height="10%">
+<a class="navbar-brand" href="index.html">RUCHIRA</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="women.html">Women</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="men.html">Men</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="kids.html">Kids</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="cart.html">
+<i class="bi bi-cart"></i> Cart
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="wishlist.html">
+<i class="bi bi-heart"></i> Wishlist
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="login.html">Login</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="banner">
+<div class="text-center">
+<h1>Men's Collection</h1>
+<p>Premium Fashion for Every Occasion</p>
+</div>
+</section>
+<div class="container mt-5">
+<div class="row g-4">
+<div class="col-md-3">
+<div class="card">
+<img src="assets/t-shirt.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Casual T-Shirt</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹799</span> <span class="old">₹1099</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/formal_shirts.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Formal Shirt</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹1299</span> <span class="old">₹1699</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/bluejeans.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Blue Jeans</h5>
+<p class="rating">★★★★☆</p>
+<p><span class="price">₹1499</span> <span class="old">₹1999</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/jacket.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Leather Jacket</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹2999</span> <span class="old">₹3999</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/sports.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Sports Shoes</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹2499</span> <span class="old">₹3199</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/running.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Running Shoes</h5>
+<p class="rating">★★★★☆</p>
+<p><span class="price">₹1999</span> <span class="old">₹2599</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/blazer.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Blazer</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹3499</span> <span class="old">₹4499</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/hoodie.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Hoodie</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹1599</span> <span class="old">₹2099</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="text-center">
+<h4>RUCHIRA</h4>
+<p>Style. Comfort. Confidence.</p>
+<p>© 2026 Ruchira. All Rights Reserved.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

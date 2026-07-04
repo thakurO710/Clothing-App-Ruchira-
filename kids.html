@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruchira | Kids Collection</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<style>
+body{
+    background:#c5d8a8;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background:#111;
+}
+.navbar-brand{
+    color:#ff4081 ;
+    font-size:30px;
+    font-weight:bold;
+}
+.nav-link{
+    color:white ;
+}
+.nav-link:hover,
+.nav-link.active{
+    color:#ff4081;
+}
+.banner{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("assets/kids.jpg");
+    background-size:cover;
+    background-position:center;
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+.banner h1{
+    font-size:50px;
+    font-weight:bold;
+}
+.card{
+    border:none;
+    transition:.3s;
+    height: 100%;
+    width: 100%;
+}
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+.price{
+    color:#ff4081;
+    font-size:22px;
+    font-weight:bold;
+}
+.old{
+    color:gray;
+    text-decoration:line-through;
+}
+.rating{
+    color:orange;
+}
+footer{
+    background:#111;
+    color:white;
+    padding:20px;
+    margin-top:50px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<img src="assets/logo.jpg" alt="Logo" width="10%" height="10%">
+<a class="navbar-brand" href="index.html">RUCHIRA</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="women.html">Women</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="men.html">Men</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="kids.html">Kids</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="cart.html">
+<i class="bi bi-cart"></i> Cart
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="wishlist.html">
+<i class="bi bi-heart"></i> Wishlist
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="login.html">Login</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="banner">
+<div class="text-center">
+<h1>Kids Collection</h1>
+<p>Fun, Comfortable & Stylish Fashion for Kids</p>
+</div>
+</section>
+<div class="container mt-5">
+<div class="row g-4">
+<div class="col-md-3">
+<div class="card">
+<img src="assets/t-shirts.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Kids T-Shirt</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹599</span> <span class="old">₹799</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/party.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Party Dress</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹999</span> <span class="old">₹1299</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/shoes.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Kids Shoes</h5>
+<p class="rating">★★★★☆</p>
+<p><span class="price">₹899</span> <span class="old">₹1199</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/denims.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Denim Jeans</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹1299</span> <span class="old">₹1699</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/bags.jpg" class="card-img-top">
+<div class="card-body">
+<h5>School Bag</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹799</span> <span class="old">₹999</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/winters.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Winter Hoodie</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹1199</span> <span class="old">₹1499</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/glasses.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Kids Glasses</h5>
+<p class="rating">★★★★☆</p>
+<p><span class="price">₹399</span> <span class="old">₹599</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="card">
+<img src="assets/romper.jpg" class="card-img-top">
+<div class="card-body">
+<h5>Baby Romper</h5>
+<p class="rating">★★★★★</p>
+<p><span class="price">₹699</span> <span class="old">₹899</span></p>
+<a href="cart.html" class="btn btn-dark w-100 mb-2">Add to Cart</a>
+<a href="wishlist.html" class="btn btn-outline-danger w-100">❤ Wishlist</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="text-center">
+<h4>RUCHIRA</h4>
+<p>Happy Kids, Happy Parents</p>
+<p>© 2026 Ruchira. All Rights Reserved.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
